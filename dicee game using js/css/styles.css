@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-image:-webkit-linear-gradient(75deg ,purple , white);
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.dice-img {
+    padding: 24px;
+    height: 220px;    
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: var();
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    
+    background-image: -webkit-linear-gradient(65deg, #9559fc 50%, #ffffff 50%);
+    font-weight: 750;
+   
+}
+
+footer p {
+    font-size: 20px;
+    margin-top: 8%;
+    font-weight: bolder;
+
+}
+

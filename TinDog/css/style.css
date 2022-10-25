@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Kurale&family=Montserrat:wght@600&family=Ubuntu+Condensed&display=swap');
+
+body {
+    text-align: center;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* headings */
+h1 , h2{
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.4;
+}
+
+/* .medium-heading {
+    
+} */
+/* Sections */
+
+.coloured-section {
+    background-color: rgb(255, 57, 57);
+    
+    color: white;
+}
+
+.white-section {
+    text-align: center;
+    background-color: white;
+}
+
+/* Buttons */
+.btn {
+    margin: 15px 6px;
+}
+
+.apple-btn {
+    color: white;
+}
+
+
+/* icons */
+
+.icon {
+    margin-bottom: 6px;
+    color: rgb(255, 73, 73);
+}
+
+.icon:hover {
+    color: rgb(255, 7, 7);
+}
+
+.download-icon {
+    font-size: 20px;
+}
+
+.fa-apple {
+    font-size: 24px;
+}
+/* Navbar  */
+.navbar .navbar-brand{
+    font-size: 3.6rem;
+    font-weight: bolder;
+}
+
+.navbar-nav {
+    margin-left: 650px;
+}
+
+.navbar {
+    margin-bottom: 5%;
+}
+
+/* Title Section */
+#title {
+    padding:1% 10% 0;
+}
+
+.title-img {
+    height: 500px;
+    position:relative;
+    left: 170px;
+    top: 25px;
+    bottom: 4%;
+    transform: rotate(30deg);
+    z-index: 1;
+
+}
+
+.title-heading {
+    margin-top: 7%;
+    
+    
+}
+
+
+
+/* Feature section */
+#feature {  
+    position: relative;
+    background-color: whitesmoke;
+    height: 500px;
+    z-index: 1;
+    padding: 9% 13%;
+
+}
+
+#feature .featured-box {
+    padding: 3.4%;
+}
+
+/* Carousel section */
+
+#testimonials {
+    text-align: center;
+}
+
+#testimonials .carousel-item {
+    padding: 3% 17%;
+}
+
+.testimonial-btn {
+    margin: 0;
+    padding: 0;
+    font-weight: bolder;
+}
+
+.preview-btn {
+    margin-top: 5%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    height: 150px;
+    margin: 12px 15px;
+}
+
+
+/* Press Sction */
+#press {
+    text-align: center;
+    padding: 2% 0 3%;
+}
+
+.press-logo { 
+    height: 40px;
+    margin: 23px 23px;
+}
+
+/* Price Sction  */
+#price {
+    padding: 5% 10%;
+}
+
+.card-body {
+    margin: 3%;
+
+}
+
+/* Download Section  */
+#download {
+    text-align: center;
+    padding: 5% 20%;
+}
+
+.download-btn {
+    margin: 24px 12px;
+}
+ 
+/* Footer Section */
+#footer {
+    padding: 7% 20%;
+}
+
+.footer-link {
+    margin: 3%;
+    font-size: 20px;
+}
+
+.footer-para {
+    margin-top: 12px;
+}
+
+/* font-family: 'Baloo Thambi 2', cursive;
+font-family: 'Kurale', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu Condensed', sans-serif; */
+
+@media (max-width: 1250px){
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        transform: rotate(0);
+        height: 450px;
+        position: static;
+        margin: 6% ;    
+    
+    }
+
+    .title-heading {
+        font-size: 2rem;
+    }
+
+    .navbar .navbar-brand{
+        font-size: 2.2rem;
+        font-weight: bolder;
+    }
+
+    .big-heading {
+        font-size: 1.7rem;
+    }
+    
+    #feature {
+        height: 50%;
+    }
+
+    .testimonial-image {
+        height: 50px;
+    }
+
+    .press-logo {
+        height: 25px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
